@@ -1,7 +1,7 @@
 clear all
 clc
 addpath(genpath(pwd))
-%% Data paths, please change it for your specific data
+%% Data paths, please change them for your specific data
 seqmap = 'data/MOT17/MOT17-eval-seqmap.txt' ; % file that stores the names of sequences need to be evaluated.
 gtDataDir = 'data/MOT17/_gt' ; % path to the ground truth files, similar structure to the MOTChallenge data structure, please see the 'data' folder for details
 resDir = 'data/MOT17/_res' ;     % path to the result files (contain outputs from different trackers, each tracker output is in 1 separate folder)
@@ -71,7 +71,7 @@ for trkidx = 1 : length(trackers)
     OSPA2_GIoU(LS+1) = mean(OSPA2_GIoU(1:LS)) ; 
     OSPA2_GIoU = (1 - OSPA2_GIoU)*100 ; 
     T = table(Sequence,OSPA2_IoU,OSPA2_GIoU) ; 
-    disp(trackers{trkidx})
+    disp(['OSPA(2) scores (higher is better) for ' trackers{trkidx}])
     disp(T) 
 end
 
