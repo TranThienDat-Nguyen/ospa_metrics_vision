@@ -16,7 +16,7 @@ The file 'data/MOT17/MOT17-eval-seqmap.txt' contains the names of sequences need
 Run 'main_ospa2.m' to obtain the results. \
 In default setting, OSPA(2) distance is computed using both IoU and GIoU base distances. You can set the flag 'flagGIoU' to select the base distance you want to use. If 'flagGIoU = false', IoU base distance is used (e.g., line 63, 66 in 'main_ospa2.m') . Otherwise, GIoU base distance is used. \
 The results are shown in terms of  "OSPA score (%)" (algorithms with higher scores are better).
-# Acknowledgments
+# Acknowledgment
 These codes are based on OSPA(2) metric implementation for Euclidean base distance in MATLAB RFS tracking toolbox provided by Prof. Ba-Tuong Vo at http://ba-tuong.vo-au.com/codes.html.
 # Contact
 For any queries please contact me at tranthiendat.nguyen@gmail.com.\
