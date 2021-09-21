@@ -1,7 +1,7 @@
 function [resMat , rawResMat] = ParsingRES(gtMat, resDir, allSequences)
 warning off
-resMat = cell(length(allSequences));
-rawResMat = cell(length(allSequences));
+resMat = cell(length(allSequences),1);
+rawResMat = cell(length(allSequences),1);
 for ind = 1:length(allSequences)
     %% Parsing result
     % MOTX data format
