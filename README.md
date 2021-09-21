@@ -12,9 +12,10 @@ Link to the paper: https://arxiv.org/pdf/2008.03533.pdf \
 OSPA metrics for detection and segmentation tasks will be released in subsequent version.
 # Usages
 Change the data paths in 'main_ospa2.m' according to your data paths. \
-The file 'data/MOT17/MOT17-eval-seqmap.txt' contains the names of sequences need to be evaluated. \
+The file 'data/MOT17/MOT17-eval-seqmap.txt' contains the names of sequences need to be evaluated. Please create new seqmap file using format of this file for your dataset.  \
 Run 'main_ospa2.m' to obtain the results. \
-In default setting, OSPA(2) distance is computed using both IoU and GIoU base distances. You can set the flag 'flagGIoU' to select the base distance you want to use. If 'flagGIoU = false', IoU base distance is used (e.g., line 63, 66 in 'main_ospa2.m') . Otherwise, GIoU base distance is used.
+In default setting, OSPA(2) distance is computed using both IoU and GIoU base distances. You can set the flag 'flagGIoU' to select the base distance you want to use. If 'flagGIoU = false', IoU base distance is used (e.g., line 63, 66 in 'main_ospa2.m') . Otherwise, GIoU base distance is used. \
+The results are shown as "score (%)" which is "higher is better".
 # Contact
 For any queries please contact me at tranthiendat.nguyen@gmail.com.\
 Copyright (C) 2021, Tran Thien Dat Nguyen.
