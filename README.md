@@ -8,7 +8,7 @@ This is MATLAB implementation of the OSPA(2) metric for multi-object tracking wi
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; archivePrefix={arXiv}, \
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; primaryClass={cs.CV} \
 } \
-Link to the paper: https://arxiv.org/pdf/2008.03533.pdf \
+This paper is avaialble at https://arxiv.org/pdf/2008.03533.pdf \
 OSPA metrics for detection and segmentation tasks will be released in subsequent version.
 # Usages
 Change the data paths in 'main_ospa2.m' according to your data paths. \
