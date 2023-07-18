@@ -1,5 +1,5 @@
 # OSPA metrics for basic vision tasks
-This is MATLAB implementation of the OSPA(2) metric for multi-object tracking with bounding boxes. The metric is described in the following paper: \
+This is MATLAB implementation of the OSPA(2) metric for multi-object tracking with bounding boxes. The metric is described in the following paper:
 
 ```
 @ARTICLE{9976259,
