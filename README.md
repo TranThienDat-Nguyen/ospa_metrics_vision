@@ -1,15 +1,17 @@
 # OSPA metrics for basic vision tasks
 This is MATLAB implementation of the OSPA(2) metric for multi-object tracking with bounding boxes. The metric is described in the following paper: \
-@misc{RNVVSR2021VisionMetrics, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; title={How Trustworthy are Performance Evaluations for Basic Vision Tasks?}, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; author={Hamid Rezatofighi and Tran Thien Dat Nguyen and Ba-Ngu Vo and Ba-Tuong Vo and Silvio Savarese and Ian Reid}, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; year={2021}, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eprint={2008.03533}, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; archivePrefix={arXiv}, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; primaryClass={cs.CV} \
-} \
-This paper is available at https://arxiv.org/pdf/2008.03533.pdf \
-OSPA metrics for detection and segmentation tasks will be released in subsequent version.
+
+```
+@ARTICLE{9976259,
+  author={Nguyen, Tran Thien Dat and Rezatofighi, Hamid and Vo, Ba-Ngu and Vo, Ba-Tuong and Savarese, Silvio and Reid, Ian},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={How Trustworthy are Performance Evaluations for Basic Vision Tasks?}, 
+  year={2023},
+  volume={45},
+  number={7},
+  pages={8538-8552},
+  doi={10.1109/TPAMI.2022.3227571}}
+```
 # Usages
 Change the data paths in 'main_ospa2.m' according to your data paths. \
 The file 'data/MOT17/MOT17-eval-seqmap.txt' contains the names of sequences need to be evaluated. Please create new seqmap file using format of this file for your dataset.  \
