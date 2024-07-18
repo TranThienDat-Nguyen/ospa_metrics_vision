@@ -59,7 +59,7 @@ end
   
 % Cap all inter-point distances
 % Full window
-distances = min(1,distances);
+distances = min(1,distances, 'includenan');
 
 % Compute the OSPA(2) at the final evaluation point
 i = num_eval ; 
